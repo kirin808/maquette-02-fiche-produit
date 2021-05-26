@@ -55,7 +55,9 @@
 	overflow: hidden;
 	-webkit-line-clamp: 2;
 	-webkit-box-orient: vertical;
-	padding-bottom: 0.12em
+	padding-bottom: 0.12em;
+
+	font-size: 1em;
 }
 
 .lot-card .info {
@@ -69,7 +71,7 @@
 }
 
 .lot-card .toggle-favorite {	
-	height: 2.5em;
+	height: 1.5em;
 
 	font-size: var(--font-scaling-centi);
 }
@@ -108,10 +110,6 @@
 
 .lot-card .card-actions > * + * {
 	margin-top: var(--gutterCenti);
-}
-
-.lot-card .card-actions a {
-	background-color: var(--blue-primary);
 }
 
 .lot-card .tags-display {

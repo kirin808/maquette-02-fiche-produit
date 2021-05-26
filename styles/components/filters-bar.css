@@ -16,10 +16,6 @@
 	border-bottom: 1px solid var(--grey);
 }
 
-.filters-bar summary {
-	cursor: pointer;
-}
-
 .filters-bar summary::marker {
 	color: var(--marker-color);
 }

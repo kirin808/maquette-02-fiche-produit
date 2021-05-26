@@ -25,6 +25,10 @@ select {
 	width: 100%;
 }
 
+summary {
+	cursor: pointer;
+}
+
 ::placeholder {
 	font-style: italic;
 }
@@ -33,6 +37,7 @@ select {
 /* Liens et boutons */
 a.text-link {
 	text-decoration: underline;
+	font-weight: 500;
 }
 
 a.text-link:hover {
@@ -51,6 +56,10 @@ button:not(.top-level-action),
 	line-height: 1.25em;
 
 	text-align: center;
+}
+
+button.place-your-bid {
+	background-color: var(--blue-primary);
 }
 
 
